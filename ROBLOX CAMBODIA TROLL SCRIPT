@@ -4,12 +4,12 @@ local Window = Library.CreateLib("cambodia troll script Beta)", "Synapse")
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Functions")
 
-Section:NewButton("delete name tag", "anti ban", function()
+Section:NewButton("delete name tag (FIXED)", "anti ban", function()
 
 
-local playerscripts = game.Players.HumanoidRootPart.OverheadGui
+local playerscripts = game.Players.LocalPlayer.Character.HumanoidRootPart.OverheadGui
 
-local script1 = playerscripts.Username
+local script1 = playerscripts
 
 local script1signal = script1.Changed
 
